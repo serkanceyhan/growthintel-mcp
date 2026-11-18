@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "net.growthintel/leads",
+  "title": "Growth Intel Revenue & Lead Intelligence MCP Server",
+  "description": "AI-native B2B revenue intelligence, 3-dimensional lead intent scoring (ICP Fit, Behavioral Intent, Information Coverage), omni-channel ad attribution, and creative strategy server. Zero-PII by design.",
+  "version": "1.1.0",
+  "homepage": "https://growthintel.net/en/docs#mcp",
+  "documentation_url": "https://growthintel.net/en/docs",
+  "repository": {
+    "url": "https://github.com/serkanceyhan/growthintel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://growthintel.net/mcp/leads",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token for tenant authentication or public zero-signup sandbox testing ('Bearer gi_sandbox_live_demo_key').",
+          "is_required": true,
+          "default": "Bearer gi_sandbox_live_demo_key"
+        }
+      ]
+    }
+  ]
+}
