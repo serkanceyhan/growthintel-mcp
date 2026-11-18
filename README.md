@@ -1,6 +1,7 @@
 # Growth Intel MCP Server (`net.growthintel/leads`)
 
 [![MCP Registry](https://img.shields.io/badge/MCP-Streamable%20HTTP-003527)](https://growthintel.net/.well-known/mcp.json)
+[![Growth Intel MCP connector](https://glama.ai/mcp/connectors/net.growthintel/growthintel-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/net.growthintel/growthintel-mcp)
 [![Zero PII](https://img.shields.io/badge/Privacy-Zero--PII%20Read--Only-0f5132)](https://growthintel.net/en/security)
 [![Sandbox](https://img.shields.io/badge/Sandbox-Instant%20Live%20Key-1b4332)](https://growthintel.net/en/docs#mcp)
 
